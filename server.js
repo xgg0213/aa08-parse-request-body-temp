@@ -8,7 +8,7 @@ const http = require("http");
 
 // Your code here
 server = http.createServer((req,res) => {
-
+    console.log(req.method, req.url);
 }) 
 
 const port = 8000;
